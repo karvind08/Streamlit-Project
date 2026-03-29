@@ -48,3 +48,11 @@ if middle.button("Emoji button", icon="😃", width="stretch"):
 if right.button("Material button", icon=":material/mood:", width="stretch"):
     right.markdown("You clicked the Material button.")
 st.divider()
+
+col1,col2,col3 = st.columns(3)
+col1.button('Hit',type='primary',width='stretch',icon=':material/mood:')
+col2.button('Hit',type='secondary')
+col3.button('Hit',type='tertiary')
+st.divider()
+st.info('This is a purely informational message', icon="ℹ️")
+
