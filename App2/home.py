@@ -12,7 +12,19 @@ contact_page = st.Page(
     icon = ':material/home:'
 )
 
-pg = st.navigation(pages=[about_page,contact_page])
+our_services = st.Page(
+    page='pages/services.py',
+    title='Our Services',
+    icon = ':material/download:'
+)
+# pg = st.navigation(pages=[about_page,contact_page])
+pg = st.navigation(
+    {
+        'Info':[about_page],
+        'Contact':[contact_page],
+        'Services':[our_services]
+    }
+)
 st.logo("assets/heart.png")
 st.sidebar.text("Made with 💕 by Arvind")
 pg.run()
