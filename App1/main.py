@@ -8,7 +8,7 @@ st.text("\nThis is another text",help='This is streamlit text')
 code = '''def hello():
     print("Hello, Streamlit!")
     print('I am Arvind')'''
-st.code(code, language="python",line_numbers=True,wrap_lines=True, height=80)
+st.code(code, language="Python",line_numbers=True,wrap_lines=True, height=80)
 code1 = '''Is it a crown or boat?
                         ii
                       iiiiii

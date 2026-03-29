@@ -1,0 +1,6 @@
+
+matplotlib-inline==0.1.6
+stack-data==0.6.2
+streamlit==1.39.0
+tenacity==9.0.0
+xlrd==2.0.1
