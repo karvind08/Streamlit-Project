@@ -61,4 +61,4 @@ data = pd.DataFrame(np.random.randn(30,3),columns=["A","B","C"])
 st.table(data.iloc[0:10])
 st.divider()
 st.image("./heart.png",width=200)
-
+st.logo('heart.png')
